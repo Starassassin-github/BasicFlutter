@@ -1,7 +1,10 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'FoodMenu.dart';
 import 'MoneyBox.dart';
 void main() {
+  
   var app = MyApp();
   runApp(app);
 }
@@ -59,3 +62,6 @@ class _MyHomePageState extends State<MyHomePage> {
         ,),);
   }
 }
+
+
+
